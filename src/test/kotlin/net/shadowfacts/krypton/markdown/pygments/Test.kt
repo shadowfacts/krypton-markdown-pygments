@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
 		output = File("output")
 
 		markdown = MarkdownConfig().apply {
-			extraExtensions.add(PygmentsExtesion)
+			extraExtensions.add(PygmentsExtension)
 		}
 	})
 

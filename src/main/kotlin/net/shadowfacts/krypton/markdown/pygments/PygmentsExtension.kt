@@ -5,7 +5,7 @@ import org.commonmark.renderer.html.HtmlRenderer
 /**
  * @author shadowfacts
  */
-object PygmentsExtesion: HtmlRenderer.HtmlRendererExtension {
+object PygmentsExtension: HtmlRenderer.HtmlRendererExtension {
 
 	override fun extend(builder: HtmlRenderer.Builder) {
 		builder.nodeRendererFactory(::PygmentsCodeBlockRenderer)
